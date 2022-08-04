@@ -10,60 +10,7 @@ namespace FiveWords {
         static void Main(string[] args) {
             Program program = new Program();
             program.Run();
-
-            // double[] v = new[] {
-            //     0,
-            //     0.075,
-            //     0.15,
-            //     0.3,
-            //     0.45,
-            //     0.6,
-            //     1,
-            // };
-            //
-            // double totalArea = (1 * 1) / 2.0;
-            // double segmentArea = totalArea / 6.0;
-            //
-            // double prev = 0;
-            //
-            // for (int i = 0; i < 6; i++) {
-            //
-            //     double a = -1;
-            //     double b = 2;
-            //     double c = prev * prev - 2.0 * prev - segmentArea;
-            //
-            //     double det = b * b - 4.0 * a * c;
-            //     double x = (-b + Math.Sqrt(det)) / 2 * a;
-            //
-            //     // double numProcessors = 8.27;
-            //     //
-            //     // double lowerE = Math.Pow(numProcessors,lower);
-            //     // double upperE = Math.Pow(numProcessors,upper);
-            //     //
-            //     // double lowerNorm = (lowerE - 1.0) / (numProcessors - 1.0); 
-            //     // double upperNorm = (upperE - 1.0) / (numProcessors - 1.0);
-            //
-            //     double lowerNorm = prev;
-            //     double upperNorm = x;
-            //
-            //     double range = upperNorm - lowerNorm;
-            //         
-            //     double size = 5977;
-            //
-            //     double lowerI = lowerNorm;
-            //     double upperI = upperNorm;
-            //     double lowerTip = size - lowerI;
-            //     double upperTip = size - upperI;
-            //     double area = (upperI - lowerI) * (upperTip + lowerTip) / 2.0;
-            //     
-            //     
-            //     //Console.WriteLine("i={0} E=({1}, {2}) norm=({3}, {4}) range={5} I=({6}, {7}) trip=({8}, {9}) area={10:#,##0.00}",i,lowerE,upperE,lowerNorm,upperNorm,range,lowerI,upperI,lowerTip,upperTip,area);
-            //     Console.WriteLine("i={0} norm=({1}, {2}) range={3} I=({4}, {5}) trip=({6}, {7}) area={8:#,##0.00}",i,lowerNorm,upperNorm,range,lowerI,upperI,lowerTip,upperTip,area);
-            //
-            //     prev = x;
-            // }
-
-            
+ 
         }
 
         private Dictionary<uint, List<string>> m_Words = new Dictionary<uint, List<string>> ();
